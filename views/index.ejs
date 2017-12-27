@@ -1,9 +1,23 @@
 <%- include('header') %>
 
-<ul id="slide-out" class="side-nav fixed">
-  <li><a href="#!">First Sidebar Link</a></li>
-  <li><a href="#!">Second Sidebar Link</a></li>
-</ul>
-<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+<%- include('slidebar') %>
+<%- include('navbar') %>
+
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <i class="material-icons prefix">search</i>
+        <input id="search" type="text" class="validate">
+        <label for="search">Que recherchez-vous ?</label>
+      </div>
+      <div class="input-field col s6">
+        <i class="material-icons prefix">subject</i>
+        <input id="category" type="tel" class="validate">
+        <label for="category">Categorie</label>
+      </div>
+    </div>
+  </form>
+</div>
 
 <%- include('footer') %>
