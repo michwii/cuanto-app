@@ -13,11 +13,21 @@
       </div>
       <div class="input-field col s6">
         <i class="material-icons prefix">subject</i>
-        <input id="category" type="tel" class="validate">
+        <select ic="category">
+          <option value="" disabled selected>Toutes catégories</option>
+          <option value="1">Auto Moto</option>
+          <option value="2">Electronic</option>
+          <option value="3">Bricolage</option>
+        </select>
         <label for="category">Categorie</label>
       </div>
     </div>
   </form>
 </div>
+
+<div class="input-field col s12">
+
+</div>
+
 
 <%- include('footer') %>

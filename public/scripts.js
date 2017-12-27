@@ -1,2 +1,4 @@
 $(".button-collapse").sideNav();
-//$('.collapsible').collapsible();
+$(document).ready(function() {
+    $('select').material_select();
+  });
