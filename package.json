@@ -10,6 +10,7 @@
     },
     "scripts": {
         "start": "node index.js"
+        "build": "echo test"
     },
     "dependencies": {
         "ejs": "^2.5.7",
