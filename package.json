@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "node index.js",
-        "build": "echo test"
+        "build": "cd api && npm install "
     },
     "dependencies": {
         "ejs": "^2.5.7",
